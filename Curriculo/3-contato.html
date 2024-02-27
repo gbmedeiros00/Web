@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contatos</title>
+        <style>
+            body {
+        color: white;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 16px;
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid rgb(38, 152, 218);
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    h1 {
+        color: rgb(38, 152, 218);
+    }
+    
+    footer img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer a {
+        margin: 20px;
+        text-align: center;
+    }
+    
+    footer p {
+        margin-top: 2px;
+    }
+    
+    .container {
+        padding: 0px 50px;
+    }
+    
+    nav a {
+        font-size: 20px;
+    }
+    
+    nav a:hover {
+        color: rgb(38, 152, 218);
+    }
+    
+    .contact-form input{
+        width: 100%;
+        padding: 8px 0;
+        margin: 8px 0;
+    }
+    
+    .contact-form input[type=text] {
+        height: 100px;
+    }
+    
+    button {
+        color: black;
+        background-color: white;
+        border: none;
+        width: 100px;
+        height: 30px;
+    }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="1-index.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="2-projetos.html">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="3-contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <header class="center">
+                <div>
+                    <img src="perfil.png"></img>
+                </div>
+                <h1>Entre em contato!</h1>
+            </header>
+            <form class="contact-form" action="https://formsubmit.co/sjcbielx@gmail.com" method="POST">
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Mensagem</label>
+                    <input type="text" id="message" name="message" required>
+                </div>
+                <button type="submit">Send</button>
+  
+            </form>
+        </div>
+    </body

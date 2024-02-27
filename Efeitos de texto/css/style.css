@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.underlined-text {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(232, 54, 0, 1);
+}
+
+.double-underlined-text {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgba(232, 54, 0, 1);
+}
+
+.thick-underlined-text {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: rgba(232, 54, 0, 1);
+    text-decoration-thickness: 20px;
+}
+
+
+
+footer {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Acrescente estes códigos no final do style.css */
+
+.text-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#sombra {
+    font-size: 36px;
+    color: #333;
+    text-shadow: rgba(62,66,66,0.83) -34px 24px 24px;
+    -webkit-box-shadow: 0px 0px 82px 52px rgba(45,255,196,0.9);
+    -moz-box-shadow: 0px 0px 82px 52px rgba(45,255,196,0.9);
+    box-shadow: 0px 0px 82px 52px rgba(45,255,196,0.9);
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
